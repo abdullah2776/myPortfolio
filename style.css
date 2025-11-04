@@ -127,11 +127,10 @@
       border-radius: 12px;
       color: var(--muted);
       font-weight: 600;
+      transition: all 0.2s ease;
     }
     .links a:hover{
       transform:translatey(-5px);
-      transition: all 0.2s ease;
-      
     }
 
     .profile-card {
@@ -181,11 +180,12 @@
       color: var(--muted);
       font-weight: 700;
       margin-top: 12px;
+      transition: all 0.2s ease; 
     }
     .socials a:hover{
       transform: translateY(-10px);
       background-color: var(--muted);
-      transition: all 0.2s ease;  
+       
     }
 
     /* ================= SECTIONS ================= */
@@ -275,11 +275,11 @@
     .skill {
       background: linear-gradient(90deg, rgba(255, 255, 255, 0.02), transparent);
       padding: 10px;
-      border-radius: 10px;
+      border-radius: 10px;    
+      transition: 0.8 ease;
     }
     .skill:hover{
       transform: scale(1.1);
-      transition: all 0.8 ease;
       transform-origin: center;
     }
 
